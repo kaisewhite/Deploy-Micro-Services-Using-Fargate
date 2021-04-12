@@ -1,0 +1,4 @@
+[{
+    "name": "CyberEval-Web-Prod-Container",
+    "imageUri": "AWS::AccountId.dkr.ecr.us-gov-west-1.amazonaws.com/cybereval-web:Prod"
+}]

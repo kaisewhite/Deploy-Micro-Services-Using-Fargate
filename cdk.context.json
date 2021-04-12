@@ -1,0 +1,45 @@
+{
+  "vpc-provider:account=111055882567:filter.isDefault=false:filter.vpc-id=vpc-08460d5edf75ac7e5:region=us-gov-west-1:returnAsymmetricSubnets=true": {
+    "vpcId": "vpc-08460d5edf75ac7e5",
+    "vpcCidrBlock": "172.16.0.0/16",
+    "availabilityZones": [],
+    "subnetGroups": [
+      {
+        "name": "Private",
+        "type": "Private",
+        "subnets": [
+          {
+            "subnetId": "subnet-06b699a3130e668ef",
+            "cidr": "172.16.2.0/24",
+            "availabilityZone": "us-gov-west-1a",
+            "routeTableId": "rtb-0c13a16504cc087dd"
+          },
+          {
+            "subnetId": "subnet-034c150cf4beea36a",
+            "cidr": "172.16.4.0/24",
+            "availabilityZone": "us-gov-west-1b",
+            "routeTableId": "rtb-0c13a16504cc087dd"
+          }
+        ]
+      },
+      {
+        "name": "Public",
+        "type": "Public",
+        "subnets": [
+          {
+            "subnetId": "subnet-0e149343bb256a85a",
+            "cidr": "172.16.1.0/24",
+            "availabilityZone": "us-gov-west-1a",
+            "routeTableId": "rtb-0c13a16504cc087dd"
+          },
+          {
+            "subnetId": "subnet-04b3886671d49fcb0",
+            "cidr": "172.16.3.0/24",
+            "availabilityZone": "us-gov-west-1b",
+            "routeTableId": "rtb-0c13a16504cc087dd"
+          }
+        ]
+      }
+    ]
+  }
+}

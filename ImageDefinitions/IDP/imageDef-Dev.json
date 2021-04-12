@@ -1,0 +1,4 @@
+[{
+    "name": "CyberEval-IDP-Dev-Container",
+    "imageUri": "AWS::AccountId.dkr.ecr.us-gov-west-1.amazonaws.com/cybereval-idp:Dev"
+}]
